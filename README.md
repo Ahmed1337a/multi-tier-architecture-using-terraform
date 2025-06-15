@@ -1,5 +1,8 @@
 # multi-tier-architecture-using-terraform
 
+![image](https://github.com/Ahmed1337a/multi-tier-architecture-using-terraform/blob/64f2063f3b0a4c869ddcc20e9f26b8b5d73dccd0/%20multi%20tier%20diagram%20.png)
+
+
 ### Objective :
 
 Deploy a scalable and secure web application on AWS using Terraform. The application will consist of:
@@ -74,3 +77,35 @@ RDS MySQL Instance is launched:
 2.No public access.
 
 3.Only accessible from App SG.
+
+
+### Terraform Deployment Steps :
+
+1. terraform init
+
+This command initializes the Terraform working directory, downloads the required provider plugins, and sets up the backend (if configured).
+
+2.terraform plan
+
+Generates and shows an execution plan. This lets you see what Terraform intends to do before actually making any changes.
+
+3.terraform apply
+
+Executes the actions proposed in the plan and creates the infrastructure on AWS.
+
+4.terraform destroy
+
+Destroys all infrastructure created by Terraform. Use this when you're done and want to clean up all resources.
+
+(be careful with that command)
+
+### Final notes:
+
+This project demonstrates how to build a complete multi-tier architecture on AWS using Terraform, following best practices for scalability, security, and modularity.
+
+Feel free to fork, customize, or extend this infrastructure to fit your own application needs.
+
+
+
+   
+
