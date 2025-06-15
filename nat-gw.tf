@@ -1,3 +1,8 @@
+########################
+(nat-gw and eip )
+########################
+
+
 resource "aws_eip" "nat" {
   vpc = true
 }
